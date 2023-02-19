@@ -21,4 +21,18 @@ import ListeLivres from "@/components/ListeLivres.vue";
 </template>
 
 <style>
+body {
+  background: peru;
+}
+
+nav {
+  text-align: center;
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: inline-block;
+  color: #ffe4c4;
+}
+
+
 </style>
