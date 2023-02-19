@@ -20,19 +20,27 @@ import ListeLivres from "@/components/ListeLivres.vue";
 
 </template>
 
-<style>
-body {
+<style scoped>
+
+html,body {
   background: peru;
 }
 
-nav {
-  text-align: center;
+.nav {
+  justify-content: center;
+  padding-inline: 50px;
+  padding-inline-start: 50px;
+  padding-inline-end: 50px;
   margin: auto;
-  padding-left: 100px;
-  padding-right: 100px;
-  display: inline-block;
-  color: #ffe4c4;
+  display: inline-flex;
+  color: #9e6000;
+  background: #2d1e01;
+  border-width: 5px;
 }
 
+.nav:hover{
+  color: #ffe4c4;
+  background: darkgoldenrod;
+}
 
 </style>

@@ -8,6 +8,7 @@
     </div>
   </form>
 </div>
+  <br />
   <div>
     <table>
       <caption>Résultat de la recherche :</caption>
