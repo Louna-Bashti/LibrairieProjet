@@ -167,9 +167,9 @@ onMounted(() => {
           <td>{{ livre.id }}</td>
           <td>{{ livre.titre }}</td>
           <td>
-            <button @click="diminuerQuantite(livre.id, livre.titre, livre.qtestock, livre.prix)">Moins</button>
+            <button @click="diminuerQuantite(livre.id, livre.titre, livre.qtestock, livre.prix)">-</button>
             {{ livre.qtestock }}
-            <button @click="augmenterQuantite(livre.id, livre.titre, livre.qtestock, livre.prix)">Plus</button>
+            <button @click="augmenterQuantite(livre.id, livre.titre, livre.qtestock, livre.prix)">+</button>
           </td>
           <td>{{livre.prix}}</td>
           <td>
@@ -185,7 +185,33 @@ onMounted(() => {
 
 <style scoped>
 
+div {
+  padding: 20px;
+}
 
+th, tr, td{
+  border: 2px solid black;
+  background: #2d1e01;
+  text-align: center;
+  padding: 12px;
+
+}
+
+th{
+  font-family: "Baskerville Old Face";
+  font:bold;
+  font-size: larger;
+}
+
+caption {
+  font-family: "Baskerville Old Face";
+  font-weight: bolder;
+  font-size: xxx-large;
+}
+
+button{
+  background-color: cornsilk;
+}
 
 </style>
 

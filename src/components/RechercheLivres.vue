@@ -69,5 +69,32 @@ function rechercheLivre() {
 </script>
 
 <style scoped>
+th, tr{
+  border: 2px solid black;
+  background: #2d1e01;
+  text-align: center;
+  padding: 12px;
+
+}
+
+th{
+  font-family: "Baskerville Old Face";
+  font:bold;
+}
+
+button{
+  background-color: cornsilk;
+}
+
+form{
+  text-align: center;
+  border-width: 12px;
+  border-color: gold;
+}
+
+div {
+  padding: 20px;
+}
+
 
 </style>

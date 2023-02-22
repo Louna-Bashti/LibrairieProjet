@@ -25,4 +25,25 @@ const emit = defineEmits(["addc"]);
 </template>
 
 <style scoped>
+
+h1 {
+  font-family: "Baskerville Old Face";
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+input{
+  font-family: "Baskerville Old Face";
+}
+
+button{
+  background-color: cornsilk;
+}
+
+form{
+  text-align: center;
+  border-width: 12px;
+  border-color: gold;
+}
+
 </style>

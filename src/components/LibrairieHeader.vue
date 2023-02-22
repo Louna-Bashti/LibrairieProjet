@@ -9,6 +9,8 @@ h1 {
   margin-left: auto;
   text-align: center;
   margin-right: auto;
+  font-size: xxx-large;
+  font-family: "Old English Text MT";
 }
 
 p {
