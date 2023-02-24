@@ -69,11 +69,13 @@ function rechercheLivre() {
 </script>
 
 <style scoped>
+
 th, tr{
   border: 2px solid black;
   background: #2d1e01;
   text-align: center;
   padding: 12px;
+  align-self: center;
 
 }
 

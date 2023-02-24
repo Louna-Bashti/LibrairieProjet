@@ -147,7 +147,9 @@ onMounted(() => {
 <template>
   <main>
     <div>
+      <img src="../assets/imagebookshelf2.jpg" width="100" height="100" alt="bookshelf">
       <LivreForm @addc="ajouterLivre"></LivreForm>
+      <img src="../assets/imagebookshelf2.jpg" width="100" height="100" alt="bookshelf">
     </div>
     <div>
       <table>
@@ -187,6 +189,8 @@ onMounted(() => {
 
 div {
   padding: 20px;
+  display: inline-flex;
+  align-content: center;
 }
 
 th, tr, td{
@@ -211,6 +215,15 @@ caption {
 
 button{
   background-color: cornsilk;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: white;
+}
+
+img{
+  padding: 20px;
 }
 
 </style>

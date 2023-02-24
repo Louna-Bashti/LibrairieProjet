@@ -8,8 +8,11 @@ import ListeLivres from "@/components/ListeLivres.vue";
 </script>
 
 <template>
+  <div>
   <LibrairieHeader />
+  </div>
   <br />
+  <div>
   <nav>
     <RouterLink class="nav" to ="/accueil">Accueil</RouterLink>
     <RouterLink class="nav" to ="/listelivres">Nos livres</RouterLink>
@@ -17,7 +20,7 @@ import ListeLivres from "@/components/ListeLivres.vue";
   </nav>
   <br />
   <RouterView></RouterView>
-
+  </div>
 </template>
 
 <style scoped>
